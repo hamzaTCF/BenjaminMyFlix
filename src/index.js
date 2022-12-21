@@ -25,5 +25,7 @@ const container = document.getElementsByClassName('app-container')[0];
 // Create root out of root dom element
 const root = createRoot(container)
 
+console.log(123);
+
 // Tells react to render your app in the root DOM element
 root.render(<MyFlixApplication />)
